@@ -14,7 +14,7 @@ p {
 }
 
 .description {
-    width: 750px;
+    max-width: 750px;
     margin: 0 auto;
 }
 
@@ -109,4 +109,19 @@ p {
 @keyframes fade {
   from {opacity: .4}
   to {opacity: 1}
+}
+
+@media screen and (max-width: 750px) {
+    header {
+        width: 80%;
+        margin: 0 auto;
+    }
+    
+    .slideshow-container {
+        width: 80%;
+    }
+
+    .description {
+        width: 80%;
+    }
 }

@@ -155,6 +155,9 @@ ul {
 }
 
 @media screen and (max-width: 900px) {
+  article {
+    text-align: center;  
+  }
   h1 {
     font-size: 55px;
   }

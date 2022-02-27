@@ -5,6 +5,10 @@
   font-family: 'Roboto', Arial, Helvetica, sans-serif
 }
 
+header {
+  margin-top: 20px;
+}
+
 h1 {
     font-family: 'Bevan';
     text-align: center;
@@ -27,6 +31,8 @@ h2 {
 
 .mail-tag {
   text-align: center;
+  font-size: 20px;
+  line-height: 1.5;
 }
 
 h3 {
